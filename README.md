@@ -1,13 +1,13 @@
 # Angular 2+ templates PHP prerenderer
 
-This library can be used for prerendering your angular templates in any PHP based backend
+This library can be used for prerendering your Angular 2+ templates in any PHP based backend
 
 ## Basic usage
 
-First of all you should initialize the prerender class and specify the path to the root of your angular app sources directory
+First of all you should initialize the prerender class and specify the path to the root of your Angular app sources directory
 
 ```PHP
-$prerenderer = new NG2Prerenderer('/path/to/angular-app/root');
+$prerenderer = new NG2Prerenderer('/path/to/Angular-app/root');
 ```
 
 All components will be detected with the prerenderer automatically and you can render any of them separatly
@@ -30,7 +30,7 @@ echo $prerenderer->render('app-navbar', [
 
 ## Supported features
 
-For now this library supports the mext set of the angular syntax constructions
+For now this library supports the mext set of the Angular syntax constructions
 
 1. Template variables, including hierarchical arrays: 
 
@@ -80,7 +80,7 @@ For now this library supports the mext set of the angular syntax constructions
 
 ## Roadmap
 
-This is a very simple and young solution and we planning to implement a lot of additional features to the library:
+This is a very simple and raw solution and we planning to implement a lot of additional features to the library:
 
 * Angular pipes support with manual registering PHP-based custom pipes
 * Internal caching for parsed templates to speedup prerendering
